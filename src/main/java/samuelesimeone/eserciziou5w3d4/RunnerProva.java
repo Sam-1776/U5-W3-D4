@@ -8,7 +8,7 @@ public class RunnerProva implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        User user = new User("Andrea", "Sportillo");
+        User user = new User("Marco", "Carta");
         System.out.println(user.firmaUser());
     }
 }
