@@ -13,5 +13,9 @@ import lombok.ToString;
 public class User {
     private String name;
     private String surname;
+
+    public String firmaUser(){
+        return "Firma: " + getName() + " " + getSurname();
+    }
 }
 
